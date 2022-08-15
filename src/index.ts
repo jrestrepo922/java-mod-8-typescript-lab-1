@@ -1,7 +1,7 @@
 function prepend(numSpaces: number, inputString: string): string {
   // your code here
   for(let i = 0; i < numSpaces; i++){
-    inputString = inputString + " "; 
+    inputString = " " + inputString; 
   }
   return inputString; 
 }
